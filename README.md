@@ -5,11 +5,11 @@ About:
 This small application defines a method that find the longest word from provided sentence and also tells the length of the word.
 
 Clone Project:
-1. git clone https://github.com/noshi1/InRhythm-exercise.git
+1. git clone https://github.com/noshi1/InRhythm-Exercise.git
 
 Tools Required:
 
-1. Intsall Pyhton3
+1. Install Pyhton3
 2. pip install pytest
 
 Run:
