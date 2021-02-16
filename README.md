@@ -17,8 +17,11 @@ Run:
 2. run this command 'pytest' or 'pytest test_longest_word.py'
 
 Assumptions:
-1. When first test runs it find out the longest word from the sentence.
-2. When second test runs it checks the length of the longest word from that sentence.
+1. When 01 test runs it find out the longest word from the sentence.
+2. When 02 test runs it checks the length of the longest word from that sentence.
+3. When 03 test runs if will check sentence contains any number 0-9.
+4. When 04 test runs if will check sentence contains any special characters.
+5. When 05 test runs it will check if sentence is empty.
 
 
 

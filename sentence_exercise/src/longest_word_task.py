@@ -1,3 +1,8 @@
+
+import re
+from string import digits
+
+
 class LongestWord:
 
     def __int__(self):
@@ -8,9 +13,10 @@ class LongestWord:
     """
     @staticmethod
     def find_longest_word(sentence):
-        if not sentence:
+        new_sentence = re.sub('[^A-Za-z]+', ' ', sentence)
+        if not new_sentence:
             raise Exception("Sentence should not be empty")
         else:
-            longest = max(sentence.split(), key=len)
+            longest = max(new_sentence.split(), key=len)
 
         return longest
